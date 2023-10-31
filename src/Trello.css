@@ -1,0 +1,82 @@
+.trello {
+    /* width: 100%; */
+    margin-top: 80px;
+    padding: 30px;
+
+}
+
+.trello .top {
+    margin: 0px 50px;
+}
+
+.top .size {
+    width: 50%;
+}
+
+.top .size span {
+    color: blue;
+    border-bottom: 2px solid blue;
+    cursor: pointer;
+}
+
+.top .size p {
+    font-size: large;
+    font-weight: 500;
+}
+
+.trello .bottom {
+    margin: 0px 50px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.trello .bottom .tleft {
+    width: 35%;
+    margin-right: 10px;
+}
+
+.trello .bottom .tright {
+    /* border: 2px solid green; */
+    width: 65%;
+}
+
+.tright img {
+    width: 80%;
+    height: 80%;
+    margin-left: 80px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.one1,
+.two2,
+.three3 {
+    cursor: pointer;
+}
+
+.active {
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.one1{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.two2{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.three3{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
